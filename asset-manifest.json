@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ShopingStyle_website/static/css/main.55ae0b0c.css",
+    "main.js": "/ShopingStyle_website/static/js/main.cb22812a.js",
+    "static/js/787.063bf4c7.chunk.js": "/ShopingStyle_website/static/js/787.063bf4c7.chunk.js",
+    "static/media/logo.png": "/ShopingStyle_website/static/media/logo.abe38ad162a16fe8cdda.png",
+    "static/media/logo.svg": "/ShopingStyle_website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ShopingStyle_website/index.html",
+    "main.55ae0b0c.css.map": "/ShopingStyle_website/static/css/main.55ae0b0c.css.map",
+    "main.cb22812a.js.map": "/ShopingStyle_website/static/js/main.cb22812a.js.map",
+    "787.063bf4c7.chunk.js.map": "/ShopingStyle_website/static/js/787.063bf4c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55ae0b0c.css",
+    "static/js/main.cb22812a.js"
+  ]
+}
