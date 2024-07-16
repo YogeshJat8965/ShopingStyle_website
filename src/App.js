@@ -1,11 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import Homepage from './Pages/Homepage';
 import Cartpage from './Pages/Cartpage';
+import { useEffect, useState } from 'react';
 
 function App() {
+
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [initialNavigationDone, setInitialNavigationDone] = useState(false);
+
+  useEffect(() => {
+    if (!initialNavigationDone) {
+      setInitialNavigationDone(true);
+      if (location.pathname === '/') {
+        navigate('/');
+      }
+    }
+  }, [initialNavigationDone, location.pathname, navigate]);
+
   return (
 
     <div className='w-full flex flex-col justify-center  ' >
