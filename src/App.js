@@ -10,7 +10,7 @@ function App() {
 
   const navigate = useNavigate();
   const location = useLocation();
-  const [initialNavigationDone, setInitialNavigationDone] = useState(false);
+  const [initialNavigationDone, setInitialNavigationDone] = useState(true);
 
   useEffect(() => {
     if (!initialNavigationDone) {
